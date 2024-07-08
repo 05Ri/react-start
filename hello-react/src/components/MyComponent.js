@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// // 함수형 컴포넌트
+// /* 함수형 컴포넌트 */
 // const MyComponent = (props) => {
 //   const { name, favoriteNumber, children } = props;
 
@@ -14,10 +14,12 @@ import PropTypes from 'prop-types';
 //   );
 // };
 
-// 클래스형 컴포넌트
+/* 클래스형 컴포넌트 */
 import { Component } from 'react';
 
 class MyComponent extends Component {
+  // /* 클래스형 컴포넌트 내부에서
+  //  * defaultProps, propTypes 선언 */
   // static defaultProps = {
   //   name: '기본 이름',
   // };

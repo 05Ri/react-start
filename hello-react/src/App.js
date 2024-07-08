@@ -1,5 +1,6 @@
 import './App.css';
-import MyComponent from './MyComponent';
+import MyComponent from './components/MyComponent';
+import Counter from './components/Counter';
 
 // 함수형 컴포넌트
 const App = () => {
@@ -18,6 +19,8 @@ const App = () => {
       <div style={style}>{name}</div>
       <div className="react">리액트입니다</div>
       <MyComponent favoriteNumber={5}>children setting</MyComponent>
+      <hr />
+      <Counter></Counter>
     </>
   );
 };
